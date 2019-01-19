@@ -1,0 +1,21 @@
+{
+  "name": "eth-subscriptions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "canonical-weth": "^1.3.1",
+    "openzeppelin-solidity": "^2.1.2"
+  },
+  "devDependencies": {
+    "@gnosis.pm/truffle-nice-tools": "^1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Shtylman",
+  "license": "MIT"
+}

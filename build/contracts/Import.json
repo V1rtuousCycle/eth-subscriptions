@@ -1,0 +1,125 @@
+{
+  "contractName": "Import",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058203eecc1b7dcf5da167d1cf0b7c42f989525004ca3261369154a28ad89730458500029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058203eecc1b7dcf5da167d1cf0b7c42f989525004ca3261369154a28ad89730458500029",
+  "sourceMap": "71:19:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;71:19:0;;;;;;;",
+  "deployedSourceMap": "71:19:0:-;;;;;",
+  "source": "pragma solidity ^0.5.1;\n\nimport 'canonical-weth/contracts/WETH9.sol';\n\ncontract Import {\n}",
+  "sourcePath": "/Users/antonvs/Projects/sandbox/eth-subscriptions/contracts/Import.sol",
+  "ast": {
+    "absolutePath": "/Users/antonvs/Projects/sandbox/eth-subscriptions/contracts/Import.sol",
+    "exportedSymbols": {
+      "Import": [
+        3
+      ]
+    },
+    "id": 4,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "canonical-weth/contracts/WETH9.sol",
+        "file": "canonical-weth/contracts/WETH9.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 4,
+        "sourceUnit": 910,
+        "src": "25:44:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3,
+        "linearizedBaseContracts": [
+          3
+        ],
+        "name": "Import",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 4,
+        "src": "71:19:0"
+      }
+    ],
+    "src": "0:90:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/antonvs/Projects/sandbox/eth-subscriptions/contracts/Import.sol",
+    "exportedSymbols": {
+      "Import": [
+        3
+      ]
+    },
+    "id": 4,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "canonical-weth/contracts/WETH9.sol",
+        "file": "canonical-weth/contracts/WETH9.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 4,
+        "sourceUnit": 910,
+        "src": "25:44:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3,
+        "linearizedBaseContracts": [
+          3
+        ],
+        "name": "Import",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 4,
+        "src": "71:19:0"
+      }
+    ],
+    "src": "0:90:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.1+commit.c8a2cb62.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-01-18T22:07:19.524Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
